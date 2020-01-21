@@ -149,3 +149,5 @@ alias path='echo -e ${PATH//:/\\n}'
 
 # Quick start jupyter server #
 alias jupyter-notebook="~/.local/bin/jupyter-notebook --no-browser"
+
+alias dotdot="cd ~/Projects/dotfiles/dotfiles-1/"

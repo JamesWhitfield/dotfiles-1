@@ -32,9 +32,16 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
-export SPARK_HOME='~/Programs/spark-3.0.0-preview2-bin-hadoop2.7';
+
+# Spark stuff
+export SPARK_HOME='~/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7';
 export PATH=$PATH:~/.local/bin;
-export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/java";
+
+# JAVA
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64";
+export PATH=$PATH:$JAVA_HOME/bin;
+
 export PATH=$PATH:$SPARK_HOME/bin;
-#export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH;
-#export PATH=$SPARK_HOME/python:$PATH;
+export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH;
+export PATH=$SPARK_HOME/python:$PATH;
+
