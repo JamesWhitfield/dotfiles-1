@@ -35,7 +35,7 @@ export GPG_TTY=$(tty);
 
 # Spark stuff
 export SPARK_HOME='~/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7';
-export PATH=$PATH:~/.local/bin;
+export PATH=$PATH:~/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7/bin;
 
 # JAVA
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64";
