@@ -34,3 +34,4 @@ export MANPAGER='less -X';
 export GPG_TTY=$(tty);
 export SPARK_HOME='~/Programs/spark-3.0.0-preview2-bin-hadoop2.7';
 export PATH=$PATH:~/.local/bin;
+export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64/bin/java";
