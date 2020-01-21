@@ -32,4 +32,4 @@ export MANPAGER='less -X';
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty);
-export SPARK_HOME='/home/james/Programs/Spark';
+export SPARK_HOME='~/Programs/spark-3.0.0-preview2-bin-hadoop2.7';
