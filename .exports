@@ -34,14 +34,10 @@ export MANPAGER='less -X';
 export GPG_TTY=$(tty);
 
 # Spark stuff
-export SPARK_HOME='~/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7';
-export PATH=$PATH:~/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7/bin;
+export SPARK_HOME='/home/james/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7';
+export PATH=$PATH:/home/james/Programs/Spark/spark-3.0.0-preview2-bin-hadoop2.7/bin;
 
 # JAVA
 export JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64";
 export PATH=$PATH:$JAVA_HOME/bin;
-
-export PATH=$PATH:$SPARK_HOME/bin;
-export PYTHONPATH=$SPARK_HOME/python:$SPARK_HOME/python/lib/py4j-0.10.4-src.zip:$PYTHONPATH;
-export PATH=$SPARK_HOME/python:$PATH;
 
